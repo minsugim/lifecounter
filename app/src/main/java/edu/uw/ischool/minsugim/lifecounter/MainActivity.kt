@@ -42,12 +42,11 @@ class MainActivity : AppCompatActivity() {
                     playerNumber = findViewById<TextView>(R.id.text4).text.toString()
                 }
                 val newTotal = player.text.toString().toInt() + button.text.toString().toInt()
-                if (newTotal > 0 ) {
-                    player.text = newTotal.toString()
-                } else {
-                    val toast = Toast.makeText(applicationContext, playerNumber + "LOSES!", Toast.LENGTH_LONG)
+                if (newTotal <= 0 ) {
+                    val toast = Toast.makeText(applicationContext, playerNumber + " LOSES!", Toast.LENGTH_LONG)
                     toast.show()
                 }
+                player.text = newTotal.toString()
             }
         }
 

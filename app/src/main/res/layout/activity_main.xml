@@ -11,7 +11,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/my_root"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:orientation="vertical"
         tools:context=".MainActivity">
@@ -30,7 +30,7 @@
 
             <TextView
                 android:id="@+id/text1"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/player1"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -47,7 +47,7 @@
             <Button
                 android:id="@+id/button_1"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:tag="@string/button"
@@ -60,7 +60,7 @@
             <Button
                 android:id="@+id/button_2"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/minus_1_int"
@@ -72,7 +72,7 @@
             <Button
                 android:id="@+id/button_3"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/plus_5_int"
@@ -84,7 +84,7 @@
             <Button
                 android:id="@+id/button_4"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/minus_5_int"
@@ -107,7 +107,7 @@
 
             <TextView
                 android:id="@+id/text2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:text="@string/player2"
@@ -116,7 +116,7 @@
 
             <TextView
                 android:id="@+id/player2_lives"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="48dp"
                 android:text="@integer/player3_lives"
@@ -126,7 +126,7 @@
             <Button
                 android:id="@+id/button_5"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:tag="@string/button"
@@ -139,7 +139,7 @@
             <Button
                 android:id="@+id/button_6"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/minus_1_int"
@@ -151,7 +151,7 @@
             <Button
                 android:id="@+id/button_7"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/plus_5_int"
@@ -163,7 +163,7 @@
             <Button
                 android:id="@+id/button_8"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/minus_5"
@@ -185,7 +185,7 @@
 
             <TextView
                 android:id="@+id/text3"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:text="@string/player3"
@@ -194,7 +194,7 @@
 
             <TextView
                 android:id="@+id/player3_lives"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="48dp"
                 android:text="@integer/player2_lives"
@@ -204,7 +204,7 @@
             <Button
                 android:id="@+id/button_9"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:tag="@string/button"
@@ -217,7 +217,7 @@
             <Button
                 android:id="@+id/button_10"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/minus_1_int"
@@ -229,7 +229,7 @@
             <Button
                 android:id="@+id/button_11"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/plus_5_int"
@@ -241,7 +241,7 @@
             <Button
                 android:id="@+id/button_12"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/minus_5"
@@ -262,7 +262,7 @@
 
             <TextView
                 android:id="@+id/text4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8sp"
                 android:text="@string/player4"
@@ -271,7 +271,7 @@
 
             <TextView
                 android:id="@+id/player4_lives"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="48dp"
                 android:text="@integer/player4_lives"
@@ -281,7 +281,7 @@
             <Button
                 android:id="@+id/button_13"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:tag="@string/button"
@@ -293,7 +293,7 @@
             <Button
                 android:id="@+id/button_14"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/minus_1_int"
@@ -304,7 +304,7 @@
             <Button
                 android:id="@+id/button_15"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/plus_5_int"
@@ -315,7 +315,7 @@
             <Button
                 android:id="@+id/button_16"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="@integer/minus_5"
