@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.GridLayout
 import android.widget.TextView
 import android.widget.Toast
 class MainActivity : AppCompatActivity() {
@@ -12,9 +11,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val myRoot = findViewById<GridLayout>(R.id.my_root)
-        val player1 = findViewById<TextView>(R.id.player1_lives)
 
         val buttons = arrayOf(R.id.button_1, R.id.button_2, R.id.button_3, R.id.button_4,
                                 R.id.button_5, R.id.button_6, R.id.button_7, R.id.button_8,
@@ -24,7 +20,6 @@ class MainActivity : AppCompatActivity() {
         for (btn in buttons) {
             val button = findViewById<Button>(btn)
             button.setOnClickListener {
-                val action = button.text.toString().toInt()
                 val parent = button.parent as View
                 val player: TextView
                 val playerNumber: String
@@ -42,20 +37,13 @@ class MainActivity : AppCompatActivity() {
                     playerNumber = findViewById<TextView>(R.id.text4).text.toString()
                 }
                 val newTotal = player.text.toString().toInt() + button.text.toString().toInt()
-                if (newTotal <= 0 ) {
+                if (newTotal <= 0) {
                     val toast = Toast.makeText(applicationContext, playerNumber + " LOSES!", Toast.LENGTH_LONG)
                     toast.show()
                 }
                 player.text = newTotal.toString()
             }
         }
-
-//            player1.findViewWithTag<Button>("button").setOnClickListener {
-//                var lives = player1.text.toString().toInt()
-//                lives++
-//                player1.setText(lives.toString())
-//            }
-
     }
 }
 
