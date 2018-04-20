@@ -1,3 +1,23 @@
 <resources>
+    <string name="button">button</string>
+
     <string name="app_name">lifecounter</string>
+    <string name="plus_1">+ 1</string>
+    <string name="minus_1">- 1</string>
+    <string name="plus_5">+ 5</string>
+    <string name="minus_5">- 5</string>
+
+    <integer name="plus_1_int">1</integer>
+    <integer name="minus_1_int">-1</integer>
+    <integer name="plus_5_int">5</integer>
+    <integer name="minus_5_int">-5</integer>
+
+    <string name="player1">Player 1</string>
+    <integer name="player1_lives">20</integer>
+    <string name="player2">Player 2</string>
+    <integer name="player2_lives">20</integer>
+    <string name="player3">Player 3</string>
+    <integer name="player3_lives">20</integer>
+    <string name="player4">Player 4</string>
+    <integer name="player4_lives">20</integer>
 </resources>
